@@ -1,0 +1,77 @@
+ @font-face {
+  font-family: "Pokemon Pixel Font";
+  src: url('../font/pokemon_pixel_font.ttf');
+}
+
+.botonesMenu {
+	-fx-font-family: "Pokemon Pixel Font";
+	-fx-font-size:30;
+	-fx-opacity: 0.75;
+	-fx-background-radius: 0;
+	-fx-background-color:  #ccffcc;
+	-fx-pref-height: 65px;
+    -fx-pref-width: 325px;
+}
+
+.botonesMenu:hover {
+	-fx-opacity: 1.0;
+}
+
+.botonAudioMenu {
+	-fx-opacity: 0.75;
+	-fx-background-radius: 0;
+	-fx-background-color: #ccffcc;
+}
+
+.botonAudioMenu:hover {
+	-fx-opacity: 1;
+}
+
+.botonJugarEleccion {
+	-fx-font-family: "Pokemon Pixel Font";
+	-fx-font-size:30;
+	-fx-opacity: 0.75;
+	-fx-background-radius: 0;
+	-fx-background-color:  #ccffcc;
+	-fx-text-fill: red;
+}
+
+.botonJugarEleccion:hover {
+	-fx-opacity: 1.0;
+}
+
+.label {
+	-fx-font-family: "Pokemon Pixel Font";
+	-fx-font-size:50px;
+	-fx-text-fill:  #ccffcc;
+}
+
+.hechoPorLabel {
+	-fx-font-family: "Pokemon Pixel Font";
+	-fx-font-size: 26px;
+	-fx-text-fill:  #ccffcc;
+}
+
+.list-cell {
+	-fx-font-family: "Pokemon Pixel Font";
+	-fx-font-size:20;
+	-fx-background-color:  #ccffcc;
+	-fx-opacity: 0.75;
+}
+
+.list-cell:hover {
+	-fx-opacity: 1;
+	-fx-background-color: #000000;
+	-fx-text-fill: #ccffcc;
+}
+
+.list-view {
+	-fx-background-color:  #ccffcc;
+	-fx-opacity: 0.75;
+}
+
+#view {
+    -fx-background-image:url('../images/background.gif');
+    -fx-background-size:100% 100%;
+   
+}
