@@ -1,6 +1,5 @@
 package dad.game.engine;
 
-import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.image.Image;
 
 /**
@@ -12,12 +11,12 @@ public class Tree extends CollidableEntity {
 		super(new Image("/images/treeTile.png"), x, y);
 	}
 
-	@Override
-	public void render(GraphicsContext gc) {
-		super.render(gc);
+//	@Override
+//	public void render(GraphicsContext gc) {
+//		super.render(gc);
 //		Rectangle shape = (Rectangle) getCollisionShape();
 //		gc.setFill(Color.OLIVEDRAB);
 //		gc.fillRect(shape.getX(), shape.getY(), shape.getWidth(), shape.getHeight());
-	}
+//	}
 
 }

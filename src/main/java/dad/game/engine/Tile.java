@@ -47,9 +47,9 @@ public class Tile {
 				case '#': entity = new Tree(x, y); break;
 				}
 				entities.add(entity);
-				x += tileWidth;				
+				x += tileWidth;
 			}
-			y += tileLength;			
+			y += tileLength;
 		}
 		return entities;
 	}

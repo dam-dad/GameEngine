@@ -5,6 +5,7 @@ import java.util.Map;
 import java.util.Stack;
 
 import javafx.scene.canvas.GraphicsContext;
+import javafx.scene.paint.Color;
 import javafx.scene.shape.Rectangle;
 import javafx.scene.shape.Shape;
 
@@ -123,26 +124,6 @@ public class Player extends Entity<Rectangle> {
 			animation.reset();
 		}
 		animation.update(timeDifference);
-	}
-
-	private Rectangle getCollisionShape(Action action) {
-		double shapeX = posX;
-		double shapeY = posY + height / 2;
-		if (action != null) {
-			switch (action.getDirection()) {
-			case SOUTH: shapeY += ySpeed; break;
-			case NORTH: shapeY -= ySpeed; break;
-			case EAST: shapeX -= xSpeed; break;
-			case WEST: shapeX += xSpeed; break;
-			}
-		}
-		return new Rectangle(shapeX, shapeY, width, height / 2);
-	}
-	
-	@Override
-	public boolean checkCollision(Entity<? extends Shape> entity) {
-		
-		return super.checkCollision(entity);
 	}
 	
 	@Override
